@@ -1,0 +1,570 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+	margin: 0;
+	padding: 0;
+}
+.navigationBar{
+	margin-top: 34px;
+    width: 100%;
+    background-color: #252b2d;
+    height: 39px;
+    position: fixed;
+    width: 100%;
+}
+.navigationBar li{
+	float: right;
+	align-content: center;
+	margin-top: 0px; 
+}
+.nav{
+	position: fixed;
+	width: 100%;
+	background-color: #171717;
+	height: 36px;
+	position: fixed;
+	width: 100%;
+}
+.navBar1 li{
+	float: right;
+	align-content: center;
+	margin-top: 0px; 
+	color: white;
+	margin-right: 30px;
+}
+.nav i{
+	float: right;
+	margin-right: 10px;
+	text-align: center;
+	background-color: #171717;
+	color: white;
+	margin-top: 8px;
+}
+.search{
+	width: 70%;
+	margin-top: -387px;
+}
+.Check-In-Date{
+	color: white;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.Check-Out-Date{
+	color: white;
+}
+.Check-in{
+	width: 242px;
+	height: 45px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+.Check-Out{
+
+}
+/*.background{
+	background-image: url("hotelRoom.jpg");
+	margin-top: 9px;
+	
+}	height: 150%;
+	width: 100%;
+	margin-top: 30px;
+	background-position: center;
+	background-repeat: none;
+}*/
+.background img{
+	height: 200%;
+	width: 100%;
+	margin-bottom: none;
+	background-position: center;
+	background-repeat: none;
+	padding: 0;
+}
+.hotel{
+	margin-top: -556px;
+
+}
+.hotel h1{
+	margin-top: 641px;
+    margin-left: 520px;
+    border-bottom: 2px solid #bc0d27;
+    width: 203px;
+    color: #bc0d27;
+    font-family: Spinnaker;
+    
+}
+.hotel p{
+	margin-top:30px;
+	
+	text-align: center;
+    margin-left: 334px;
+    font-size: 19px;
+    color: #252b2d;
+    font-family: Open Sans;
+    width: 665px;
+}
+.hotelPictures{
+	width: 100%;
+	margin-top: 107px;
+}
+.hotelPic1{
+	background-image: url("hotelPic3.jpg");
+	
+    box-sizing: border-box;
+    width: 326px;
+    height: 272px;
+    border: 4px solid white;
+   
+    margin-left: 0px;
+    background-size: 100% 100%; 
+}
+.hotelPic2{
+	background-image: url("hotelPic2.jpg");
+	box-sizing: border-box;
+    width: 332px;
+    height: 272px;
+    border: 4px solid white;
+   	margin-top: -272px;
+    margin-left: 322px;
+    background-size: 100% 100%; 
+}
+.hotelPic3{
+	background-image: url("hotelPic4.jpg");
+	box-sizing: border-box;
+    width: 309px;
+    height: 272px;
+    border: 4px solid white;
+   	margin-top: -272px;
+    margin-left: 650px;
+    background-size: 100% 100%;
+}
+.hotelPic4{
+	background-image: url("hotelPic5.jpg");
+	box-sizing: border-box;
+    width: 309px;
+    height: 272px;
+    border: 4px solid white;
+   	margin-top: -272px;
+    margin-left: 955px;
+    background-size: 100% 100%;
+}
+.wlcmParadies{
+	width: 100%;
+	height: 440px;
+    margin-top: -4px;
+	background-color: #f7f5f5;
+}
+.wlcmParadies h1{
+	width: 100%;
+	height: 200px;
+	
+	padding-top: 106px;
+    
+    font-family: Spinnaker;
+    color: black;
+    margin-left: -4px;
+	
+	color: black;
+	margin-left: 66px;
+	font-weight: 1;
+
+} 
+.wlcmParadies p{
+	font-size: 18px;
+	margin-left:73px;
+	margin-top: -132px;
+	width: 536px;
+	color: #252b2d;
+    font-family: Open Sans;
+    text-align: left;
+}
+.wlcmParadies video{
+	width: 470px;
+    height: 302px;
+    margin-left: 683px;
+    margin-top: -224px;
+}
+.welcomeText p{
+	font-size: 50px;
+	margin-left:35px;
+	margin-top: -47px;
+	width: 100px;
+	color: #252b2d;
+    font-family: Open Sans;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  margin-top: 7px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+.control-label{
+	color: white;
+}
+.post{
+	margin-top: 20px;
+	width: 90px;
+	position: absolute;
+	margin-left: 9px;
+}
+.bootstrap-iso {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+    margin-top: -337px;
+    margin-left: 193px;
+    }
+.form-group{
+	margin-top: 20px;
+	width: 100px;
+
+}
+.room{
+	margin-top: -661px;
+}
+.room h1{
+	margin-top:60%;
+	margin-left: 36%;
+    border-bottom: 2px solid #bc0d27;
+    width: 345px;
+    color: #bc0d27;
+    font-family: Spinnaker;
+}
+.room p{
+	margin-top:30px;
+	margin-left: 32%;
+	font-size: 150%;
+	color: #252b2d;
+	font-family:Spinnaker;
+}
+.picture{
+	width: 100%;
+	height: 30%;
+	margin-left: 23px;
+	margin-top: 75px;
+}
+.pic1{
+	background-image: url("hotelRoom.jpg");
+    box-sizing: border-box;
+   	width: 405px;
+    height: 391px;
+    border: 4px solid white;
+    float: left;
+    margin-left: 1px;
+    background-repeat: none;
+    background-size: 100% 100%;
+}
+.pic2{
+	background-image: url("hotelPic2.jpg");
+    box-sizing: border-box;
+    width: 405px;
+    height: 391px;
+    border: 4px solid white;
+    float: left;
+    margin-left: 1px;
+    background-size: 100% 100%;
+}
+.pic3{
+	background-image: url("hotelRoom2.jpg");
+    box-sizing: border-box;
+    width: 405px;
+    height: 391px;
+    border: 4px solid white;
+    float: left;
+    margin-left: 1px;
+    background-size: 100% 100%;
+}
+.pic4{
+	background-image: url("hotelRoom3.jpg");
+    box-sizing: border-box;
+    width: 405px;
+    height: 391px;
+    border: 4px solid white;
+    float: left;
+    margin-left: 1px;
+    background-size: 100% 100%;
+}
+.pic5{
+	background-image: url("hotelRoom7.jpg");
+    box-sizing: border-box;
+    width: 405px;
+    height: 391px;
+    border: 4px solid white;
+    float: left;
+    margin-left: 1px;
+    background-size: 100% 100%;
+}
+.pic6{
+	background-image: url("hotelRoom4.jpg");
+    box-sizing: border-box;
+    width: 405px;
+    height: 391px;
+    border: 4px solid white;
+    float: left;
+    margin-left: 1px;
+    background-size: 100% 100%;
+}
+.news{
+	
+	margin-top:937px;
+	width: 100%;
+	height: 200%;
+	
+}
+.news1{
+	margin-top: 30px;
+	background-color: #f7f5f5;
+	height: 474px;
+	width: 100%;
+}
+.news1 img{
+	height: 474px;
+	width: 50%;
+	margin-left: 50%;
+
+}
+.news1 h1{
+	text-align: left;
+    margin-top: -349px;
+    color: black;
+    margin-left: 91px;
+    font-size: 30px;
+    font-family: Spinnaker;
+    font-weight: 1;
+}
+.news1 p{
+	text-align: left;
+    margin-top: 35px;
+    color: black;
+    margin-left: 90px;
+    font-size: 16px;
+    width: 33%;
+    font-family:Open Sans;
+
+}
+.news2{
+	margin-top:0px;
+	background-color: #f7f5f5;
+	height: 474px;
+	width: 100%;
+}
+.news2 img{
+	height: 474px;
+	width: 50%;
+	
+
+}
+.news2 h1{
+	text-align: left;
+    margin-top: -397px;;
+    color: black;
+    margin-left: 57%;
+    font-size: 30px;
+    font-family: Spinnaker;
+    font-weight: 1;
+}
+.news2 h2{
+	text-align: left;
+    margin-top: 7px;
+    color: black;
+    margin-left: 57%;
+    font-size: 30px;
+    font-family: Spinnaker;
+     font-weight: 1;
+}
+.news2 p{
+	text-align: left;
+    margin-top: 35px;
+    color: black;
+    margin-left: 57%;
+    font-size: 16px;
+    width: 33%;
+    font-family:Open Sans;
+}
+.news3{
+	margin-top: 0px;
+	background-color: #f7f5f5;
+	height: 474px;
+	width: 100%;
+}
+.news3 img{
+	height: 474px;
+	width: 50%;
+	margin-left: 50%;
+
+}
+.news3 h1{
+	text-align: left;
+    margin-top: -397px;
+    color: black;
+   	margin-left: 91px;
+    font-size: 30px;
+    font-family: Spinnaker;
+    font-weight: 1;
+}
+.news3 p{
+	text-align: left;
+    margin-top: 35px;
+    color: black;
+    margin-left: 90px;
+    font-size: 16px;
+    width: 33%;
+    font-family:Open Sans;
+
+}
+.button1{
+  background-color: #1B1B1B; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 52px;
+  margin-left: 87px;
+  cursor: pointer;
+  border-radius: 30px;
+      height: 51px;
+    width: 140px;
+  box-shadow: 2px 4px 8px #aaaaaa;
+}
+.button1:hover{
+	background-color: #252b2d;
+}
+.button2{
+  background-color: #1B1B1B; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 52px;
+  margin-left: 718px;
+  cursor: pointer;
+  border-radius: 30px;
+     height: 51px;
+    width: 140px;
+  box-shadow: 2px 4px 8px #aaaaaa;
+
+}
+.button2:hover{
+	background-color: #252b2d;
+}
+.button3{
+  background-color: #1B1B1B; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 72px;
+  margin-left: 87px;
+  cursor: pointer;
+  border-radius: 30px;
+     height: 51px;
+    width: 140px;
+   box-shadow: 2px 4px 8px #aaaaaa;
+
+}
+.button3:hover{
+	background-color: #252b2d;
+	border: none;
+
+}
+.rating{
+		background-color: #f4645f;
+		height: 267px;
+}
+.rating p{
+	color: white;
+	font-size:26px;
+	padding-top: 73px;
+	margin-left: 241px;
+	font-family: Open Sans;
+}
+.checked{
+	color: white;
+}
+.rating img{
+	width: 71px;
+    height: 68px;
+    border-radius: 50%;
+    margin-left: 251px;
+    margin-top: -19px;
+}
+.amy{
+	color: white;
+	font-size: 20px;
+	margin-top: -143px;
+    margin-left: 337px;
+    font-family: Open Sans;
+}
+.adv{
+	color: white;
+	font-size: 20px;
+	margin-top: 19px;
+	margin-left: 20px;
+	font-weight: 1;
+	font-family: Open Sans;
+}
+.packages h1{
+	padding-top: 70px;
+    color: red;
+    padding-left: 536px;
+    font-size: 27px;
+    font-weight: 1;
+    font-family: Spinnaker;
+
+}
+.packages p{
+	padding-left: 390px;
+	font-family: Open Sans;
+	padding-top: 33px;
+	font-size: 22px;
+}
+.last{
+	background-color:#292e31;
+	height: 300px;
+	width: 100%;
+	margin-top: 391px;
+}
+.about{
+	width: 32%;
+
+}
+.about h3{
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: Spinnaker;
+	font-weight: 23;
+}
+.contact{
+	width: 32%;
+}
+.payment{
+	width: 32%;
+}
